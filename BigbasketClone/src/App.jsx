@@ -19,9 +19,10 @@ function App() {
     <AutoPlaySlideshowFooter/>
     <Footer/>
     <Routes>
-      <Route path="/" element={<Home/>} />
       <Route path="/products/:id" element={<ProductDetail />} />
       <Route path="/productpage" element={<ProductsPage />} />
+      
+      
     </Routes>
     </>
   )
